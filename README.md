@@ -10,7 +10,7 @@
 
 ### Docker 
 
-Se você não tem ou não pode roder o docker compose em sua maquina, você pode seguir os seguintes passos:
+Caso você queira usar apenas docker, você pode seguir os seguintes passos:
 - Crie uma rede `docker network create customer-network`
 - Crie o container do banco de dados: `docker run -d --name facilita-juridico-db --network customer-network -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres postgres:latest`
 - Faça o build da imagem: `docker build -t facilita-juridico-image .`
