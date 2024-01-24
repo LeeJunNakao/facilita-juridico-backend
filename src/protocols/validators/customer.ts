@@ -39,7 +39,6 @@ export class FilterCustomerValidator {
 
   @Expose()
   @IsOptional()
-  @IsEmail()
   email: string;
 
   @Expose()

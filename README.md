@@ -16,4 +16,3 @@ A execução do algoritmo se baseia nas seguintes etapas:
 - Calcula a distância entre da origem e os demais vértices.
 - Escolhe o vértice mais próximo à origem e o seleciona como atual origem.
 - Verifique se há mais vértices para ser visitado, caso haja volte ao primeiro passo, caso contrário retorne o array de resultados.
-
